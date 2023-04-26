@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Miller Mora/PORTAFOLIO</title>
+	<link rel="stylesheet" href="=estilo.css">
+</head>
+<body>
+	<!--MENU ENCABEZADO-->
+	<div class="contenedor-header">
+		<header>
+			<div class="logo">
+				<a href="">MILLER</a>
+			</div>
+			<nav id="nav" class="responsive">
+				<ul>
+					<li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+					<li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+					<li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+					<li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+					<li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+				</ul>
+			</nav>
+			<div class="nav-responsive" onclick="mostrarOcultarMenu()">
+				<i class="fa-solid fa-bars"></i>
+			</div>
+		</header>
+	</div>
+		
+	<!--SECCION INICIO-->
+	<section id="inicio" class="inicio">
+		<div class="contenido-banner">
+			<div class="contenedor-img">
+				<img src="perfil2.jpg" alt="">
+			</div>
+				<h1>MILLER MORA</h1>
+				<h2>DESARROLLADOR DE SOFTWARE</h2>
+			<div class="redes">
+				<a href="https://www.facebook.com/miler.mora.37?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+				<a href="https://instagram.com/millerrrrr.mc?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+				<a href="https://twitter.com/Miller190504?t=iD8vT79QZHkRFDQenB3d2g&s=09"><i class="fa-brands fa-twitter"></i></a>
+				<a href="https://www.linkedin.com/in/miller-mora-6405a1255/"><i class="fa-brands fa-linkedin"></i></a>
+				<a href="https://github.com/Miller12A"><i class="fa-brands fa-github"></i></a>
+			</div>
+		</div>	
+	</section>
+
+	<!--SECCION SOBRE MI-->
+	<section id="sobremi" class="sobremi">
+		<div class="contenido-seccion">
+			<h2>Sobre mi</h2>
+			<p><span>Hola, soy Miller Mora, </span>tengo 18 años y vivo en la ciudad de Guayaquil – Ecuador. Actualmente estoy cursando el tercer semestre de la carrera de Desarrollo de Software, en el Instituto Superior Tecnológico “Guayaquil”, en horario nocturno. Tengo conocimientos en Python, Javascript, HTML y CSS para el desarrollo a nivel de FRONTEND y también de BACKEND, que continúo perfeccionando a través del aprendizaje e investigación autónoma.
+Mi sueño es convertirme en un desarrollador senior y por ello pongo a disposición mis conocimientos, en desarrollo de software, a fin de seguir creciendo en esta rama de la tecnología.</p>
+			<div class="fila">
+				<!--DATOS PERSONALES-->
+				<div class="col">
+					<h3>Datos Personales</h3>
+					<ul>
+						<li>
+							<strong>Cumpleaños</strong>
+							19-05-2004
+						</li>
+						<li>
+							<strong>Telefono</strong>
+							+593 959847456
+						</li>
+						<li>
+							<strong>Email</strong>
+							moramiller12345@gmail.com
+						</li>
+						<li>
+							<strong>Direccion</strong>
+							20 y chambers, Ecuador-Guayaquil
+						</li>
+					</ul>
+				</div>
+
+				<!--INTERESES-->
+				<div class="col">
+					<h3>Intereses</h3>
+					<div class="contenedor-intereses">
+						<div class="interes">
+							<i class="fa-solid fa-gamepad"></i>
+							<span>JUEGOS</span>
+						</div>
+						<div class="interes">
+							<i class="fa-solid fa-headphones"></i>
+							<span>MUSICA</span>
+						</div>
+						<div class="interes">
+							<i class="fa-solid fa-plane"></i>
+							<span>VIAJAR</span>
+						</div>
+						<div class="interes">
+							<i class="fa-brands fa-apple"></i>
+							<span>MAC OS</span>
+						</div>
+						<div class="interes">
+							<i class="fa-solid fa-person-hiking"></i>
+							<span>DEPORTE</span>
+						</div>
+						<div class="interes">
+							<i class="fa-solid fa-book"></i>
+							<span>LIBROS</span>
+						</div>
+						<div class="interes">
+							<i class="fa-solid fa-car"></i>
+							<span>AUTOS</span>
+						</div>
+						<div class="interes">
+							<i class="fa-solid fa-camera"></i>
+							<span>FOTOS</span>
+						</div>
+						<button>
+							<a href="Miller Mora Curriculum.pdf" target="_blank"><i class="fa-solid fa-download">DESCARGAR CV</i></a>
+							<span class="overlay"></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--SECCION SKILLS-->
+	<section class="skills" id="skills">
+		<div class="contenido-seccion">
+			<h2>Skills</h2>
+			<div class="fila">
+				<!--TECHNICAL SKILLS-->
+				<div class="col">
+				<h3>Technical skills</h3>
+				<div class="skill">
+					<span>JavaScrip</span>
+					<div class="barra-skill">
+						<div class="progreso javascript">
+							<span>50%</span>
+						</div>
+					</div>
+				</div>
+				<div class="skill">
+					<span>HTML</span>
+					<div class="barra-skill">
+						<div class="progreso html">
+							<span>80%</span>
+						</div>
+					</div>
+				</div>
+				<div class="skill">
+					<span>CSS</span>
+					<div class="barra-skill">
+						<div class="progreso css">
+							<span>84%%</span>
+						</div>
+					</div>
+				</div>
+				<div class="skill">
+					<span>Python</span>
+					<div class="barra-skill">
+						<div class="progreso python">
+							<span>75%</span>
+						</div>
+					</div>
+				</div>
+				</div>
+				<!--PROFESSIONAL SKILLS-->
+				<div class="col">
+					<h3>Professional skills</h3>
+					<div class="skill">
+						<span>Comunicación</span>
+						<div class="barra-skill">
+							<div class="progreso comunicacion">
+								<span>85%</span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Trabajo en equipo</span>
+						<div class="barra-skill">
+							<div class="progreso trabajo">
+								<span>80%</span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Creatividad</span>
+						<div class="barra-skill">
+							<div class="progreso creatividad">
+								<span>88%%</span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Dedicación</span>
+						<div class="barra-skill">
+							<div class="progreso dedicacion">
+								<span>85%</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--SECCION CURRICULUM-->
+	<section id="curriculum" class="curriculum">
+		<div class="contenido-seccion">
+			<h2>Curriculum</h2>
+			<div class="fila">
+				<div class="col izquierda">
+					<h3>Educación</h3>
+					<div class="item izq">
+						<h4>Desarrollo del Software</h4>
+						<span class="casa">Instituto Superior Tecnológico Guayaquil</span>
+						<span class="fecha">2022 - 2023</span>
+						<p>Tengo terminado 2 semestres en la universidad y estoy a dias de ingresar al 3er semestre de mi carrera, siendo uno de los alumnos mas sobresalientes, debido a que no me quedo solo con lo aprendido en clases, si no que por mi propia cuenta, investigo mas a profudidad los temas estudiados, para asi tener un mejor aprendizeje</p>
+						<div class="conectori">
+							<div class="circuloi"></div>
+						</div>
+					</div>
+					<div class="item izq">
+						<h4>Bachillerato en ciencias</h4>
+						<span class="casa">Colegio fiscal Mixto Aida León de Rodriguez Lara</span>
+						<span class="fecha">2016 - 2022</span>
+						<p>Culminado el bachillerato en ciencias, con una nota de 8,55</p>
+						<div class="conectori">
+							<div class="circuloi"></div>
+						</div>
+					</div>
+					<div class="item izq">
+						<h4>Educación primaria</h4>
+						<span class="casa">Escuela Fiscal Mixta Homero Espinoza Réndon</span>
+						<span class="fecha">2008 - 2015</span>
+						<p>Culminada de educacion primaria con excelentes notas</p>
+						<div class="conectori">
+							<div class="circuloi"></div>
+						</div>
+					</div>			
+				</div>
+
+				<div class="col derecha">
+					<h3>Experiencia de trabajo</h3>
+					<div class="item der">
+						<h4>Front Developer</h4>
+						<span class="casa">He trabajado en muchos proyectos personales, los cuales se muestran a continuacion en la seccion del portafolio</span>
+						<div class="conectord">
+							<div class="circulod"></div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--SECCION PORTAFOLIO-->
+	<section id="portafolio" class="portafolio">
+		<div class="contenido-seccion">
+			<h2>Portafolio</h2>
+			<div class="galeria">
+				<div class="proyecto">
+					<img src="calculadora.png" alt="">
+					<div class="overlay">
+						<h3>Calculadora</h3>
+						<p>Fotografia</p> 
+					</div>
+				</div>
+				<div class="proyecto">
+					<img src="tumbados.png" alt="">
+					<div class="overlay">
+						<h3>Pagina web para Micro Empresa</h3>
+						<p>Fotografia</p>
+					</div>
+				</div>
+				<div class="proyecto">
+					<img src="catalogo.png" alt="">
+					<div class="overlay">
+						<h3>Catalogo Virtual</h3>
+						<p>Fotografia</p>
+					</div>
+				</div>
+				<div class="proyecto">
+					<img src="cruzarFrontera.png" alt="">
+					<div class="overlay">
+						<h3>Juego Mental</h3>
+						<p>Fotografia</p>
+					</div>
+				</div>
+				<div class="proyecto">
+					<img src="serpiente.png" alt="">
+					<div class="overlay">
+						<h3>Juego de la Serpiente</h3>
+						<p>Fotografia</p>
+					</div>
+				</div>
+				<div class="proyecto">
+					<img src="redsocial.png" alt="">
+					<div class="overlay">
+						<h3>Pagina para redes sociales</h3>
+						<p>Fotografia</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--FOOTER-->
+	<footer>
+		<a href="#inicio" class="arriba">
+			<i class="fa-regular fa-angles-up"></i>
+		</a>
+		<div class="redes">
+			<a href="https://www.facebook.com/miler.mora.37?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+			<a href="https://instagram.com/millerrrrr.mc?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+			<a href="https://twitter.com/Miller190504?t=iD8vT79QZHkRFDQenB3d2g&s=09"><i class="fa-brands fa-twitter"></i></a>
+			<a href="https://www.linkedin.com/in/miller-mora-6405a1255/"><i class="fa-brands fa-linkedin"></i></a>
+			<a href="https://github.com/Miller12A"><i class="fa-brands fa-github"></i></a>
+			</div>
+	</footer>
+	
+</body>
+</html>
