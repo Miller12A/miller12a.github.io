@@ -300,7 +300,23 @@ html{
 }
 @keyframes python {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 70%;}
+}
+.skills .skill .sql{
+    width: 0%;
+    animation: 2s sql forwards;
+}
+@keyframes sql {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.skills .skill .git{
+    width: 0%;
+    animation: 2s git forwards;
+}
+@keyframes git {
+    0%{width: 0%;}
+    100%{width: 84%;}
 }
 .skills .skill .comunicacion{
     width: 0%;
