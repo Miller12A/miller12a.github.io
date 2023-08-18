@@ -280,11 +280,11 @@ html{
 }
 .skills .skill .html{
     width: 0%;
-    animation: 2s htmlcss forwards;
+    animation: 2s html forwards;
 }
-@keyframes htmlcss {
+@keyframes html {
     0%{width: 0%;}
-    100%{width: 80%;}
+    100%{width: 90%;}
 }
 .skills .skill .css{
     width: 0%;
@@ -292,7 +292,7 @@ html{
 }
 @keyframes css {
     0%{width: 0%;}
-    100%{width: 84%;}
+    100%{width: 80%;}
 }
 .skills .skill .python{
     width: 0%;
@@ -300,7 +300,23 @@ html{
 }
 @keyframes python {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 87%;}
+}
+.skills .skill .django{
+    width: 0%;
+    animation: 2s django forwards;
+}
+@keyframes django {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+.skills .skill .sqlite3{
+    width: 0%;
+    animation: 2s sqlite3 forwards;
+}
+@keyframes sqlite3 {
+    0%{width: 0%;}
+    100%{width: 80%;}
 }
 .skills .skill .sql{
     width: 0%;
