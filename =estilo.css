@@ -300,13 +300,21 @@ html{
 }
 @keyframes python {
     0%{width: 0%;}
-    100%{width: 87%;}
+    100%{width: 90%;}
 }
 .skills .skill .django{
     width: 0%;
     animation: 2s django forwards;
 }
 @keyframes django {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+.skills .skill .poo{
+    width: 0%;
+    animation: 2s poo forwards;
+}
+@keyframes poo {
     0%{width: 0%;}
     100%{width: 90%;}
 }
@@ -332,7 +340,7 @@ html{
 }
 @keyframes git {
     0%{width: 0%;}
-    100%{width: 84%;}
+    100%{width: 85%;}
 }
 .skills .skill .comunicacion{
     width: 0%;
