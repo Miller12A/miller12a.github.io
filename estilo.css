@@ -58,7 +58,7 @@ html{
 /* SECCION I N I C I O */
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(img/fondo.jpg);
+    url(img/image.png);
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -279,6 +279,7 @@ html{
     width: 0%;
     animation: 2s javascript forwards;
 }
+
 @keyframes javascript {
     0%{width: 0%;}
     100%{width: 75%;}
