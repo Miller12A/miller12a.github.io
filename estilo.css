@@ -209,161 +209,81 @@ html{
     width: 100%;
 }
 /* SECCION S K I L L S */
-.skills{
-    background-color: #252A2E;
-    color: #fff;
-    padding: 50px 20px;
+.experiencia .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
 }
-.skills .contenido-seccion{
-    max-width: 1100px;
-    margin: auto;
+.experiencia .fila .col{
+    width: 48%;
+    background-color: #161b22;
+    border: 1px solid #2acf7f;
+    padding: 20px 40px;
 }
-.skills h2{
-    font-size: 48px;
-    font-family: 'Righteous';
+.experiencia .fila .col h3{
+    color: #91e0ba;
     text-align: center;
     padding: 20px 0;
-
 }
-.skills .fila{
-    display: flex;
+.experiencia .fila .col .info{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
 }
-.skills .fila .col{
-    width: 50%;
+.experiencia .fila .col .info .item{
+    color: #fff;
+    position: relative;
+    margin-bottom: 40px;
+}
+.experiencia .fila .col .info .item span{
+    display: block;
+    margin-left: 25px;
+}
+.experiencia .fila .col .info .item i{
+    position: absolute;
+    color: #2acf7f;
+    top: 4px;
+}
+.experiencia .fila .col .info .item .skill{
+    font-weight: bold;
+}
+.experiencia .fila .col .info .item .nivel{
+    color: #91e0ba;
+    margin-top: 7px;
+}
+.experiencia .fila .servicio{
+    width: 30%;
+    background-color: #161b22;
+    border: 1px solid #2acf7f;
+    border-radius: 0 0 30px 30px ;
+}
+.experiencia .fila .servicio .titulo{
+    background-color: #91e0ba;
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 0 0 30px 30px;
+    font-size: 20px;
+}
+.experiencia .fila .servicio ul{
+    color: #fff;
     padding: 0 20px;
 }
-.skills .fila .col h3{
-    font-size: 28px;
-    font-family: 'Righteous';
-    margin-bottom: 25px;
+.experiencia .fila .servicio ul li{
+    margin: 15px;
+    line-height: 25px;
 }
-.skills .skill > span{
-    font-weight: bold;
-    display: block;
-    margin-bottom: 10px;
-}
-.skills .skill .barra-skill{
-    height: 8px;
-    width: 80%;
-    background-color: #131517;
-    position: relative;
-    margin-bottom: 30px;
-}
-.skills .skill .progreso{
-    background-color: #1CB698;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 8px;
-}
-.skills .skill .barra-skill span{
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    background-color: #1CB698;
-    border-radius: 50px;
-    line-height: 40px;
+.titulo-seccion{
     text-align: center;
-    top: -17px;
-    right: -15px;
-    font-size: 14px;
+    color: #2acf7f;
+    padding: 60px 0;
 }
-/* Estas clases se agregaran dinamicamente mediante javascript */
-.skill-row .skill img{
-    background-color: #1CB698;
-    height: 150px;
+.experiencia {
+    max-width: 1600px;
+    margin: auto;
+    margin-bottom: 10rem;
 }
-
-
-.skills .skill .javascript{
-    width: 0%;
-    animation: 2s javascript forwards;
-}
-
-@keyframes javascript {
-    0%{width: 0%;}
-    100%{width: 75%;}
-}
-
-.skills .skill .htmlcss{
-    width: 0%;
-    animation: 2s htmlcss forwards;
-}
-@keyframes htmlcss {
-    0%{width: 0%;}
-    100%{width: 89%;}
-}
-
-.skills .skill .photoshop{
-    width: 0%;
-    animation: 2s photoshop forwards;
-}
-@keyframes photoshop {
-    0%{width: 0%;}
-    100%{width: 95%;}
-}
-
-.skills .skill .wordpress{
-    width: 0%;
-    animation: 2s wordpress forwards;
-}
-@keyframes wordpress {
-    0%{width: 0%;}
-    100%{width: 81%;}
-}
-
-.skills .skill .drupal{
-    width: 0%;
-    animation: 2s drupal forwards;
-}
-@keyframes drupal {
-    0%{width: 0%;}
-    100%{width: 55%;}
-}
-
-.skills .skill .comunicacion{
-    width: 0%;
-    animation: 2s comunicacion forwards;
-}
-@keyframes comunicacion {
-    0%{width: 0%;}
-    100%{width: 80%;}
-}
-
-.skills .skill .trabajo{
-    width: 0%;
-    animation: 2s trabajo forwards;
-}
-@keyframes trabajo {
-    0%{width: 0%;}
-    100%{width: 70%;}
-}
-
-.skills .skill .creatividad{
-    width: 0%;
-    animation: 2s creatividad forwards;
-}
-@keyframes creatividad {
-    0%{width: 0%;}
-    100%{width: 99%;}
-}
-
-.skills .skill .dedicacion{
-    width: 0%;
-    animation: 2s dedicacion forwards;
-}
-@keyframes dedicacion {
-    0%{width: 0%;}
-    100%{width: 65%;}
-}
-
-.skills .skill .proyect{
-    width: 0%;
-    animation: 2s proyect forwards;
-}
-@keyframes proyect {
-    0%{width: 0%;}
-    100%{width: 94%;}
+body{
+    background-color: #20252d;
 }
 /* SECCION CURRICULUM */
 .curriculum{
